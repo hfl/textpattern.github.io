@@ -23,7 +23,7 @@
     <nav aria-label="Breadcrumb navigation">
         <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="https://docs.textpattern.com/"><span itemprop="name">Documentation</span></a>
+                <a itemprop="item" href="https://docs.textpattern.com/"><span itemprop="name">手册</span></a>
                 <meta itemprop="position" content="1">
             </li>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -44,7 +44,7 @@
 
         {% if page.tags %}
         <footer class="article-footer">
-            <span class="ui-icon ui-icon-tag">Tags:</span>
+            <span class="ui-icon ui-icon-tag">标签:</span>
             {% for tag in page.tags %}
             <a rel="category tag" href="{{ tag | slugify }}" title="View documentation in this category">{{ tag }}</a>
             {% endfor %}

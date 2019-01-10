@@ -2,7 +2,7 @@
 <html lang="en-GB-oxendict">
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} / Textpattern CMS user documentation</title>
+    <title>{{ page.title }} / Textpattern CMS 用户手册</title>
     {% include head.html %}
     <meta name="robots" content="index, follow, noodp, noydir">
     <meta name="twitter:card" content="summary">
@@ -23,7 +23,7 @@
     <nav aria-label="Breadcrumb navigation">
         <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="https://docs.textpattern.com/"><span itemprop="name">Documentation</span></a>
+                <a itemprop="item" href="/"><span itemprop="name">手册</span></a>
                 <meta itemprop="position" content="1">
             </li>
             <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -40,7 +40,7 @@
 
         {% if page.tags %}
         <footer class="article-footer">
-            <span class="ui-icon ui-icon-tag">Tags:</span>
+            <span class="ui-icon ui-icon-tag">标签：</span>
             {% for tag in page.tags %}
             <a rel="category tag" href="/tags#{{ tag }}" title="View documentation in this category">{{ tag }}</a>
             {% endfor %}

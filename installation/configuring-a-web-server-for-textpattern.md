@@ -1,12 +1,12 @@
 ---
 layout: document
-category: Installation
+category: 安装
 published: true
-title: Configuring a web server for Textpattern.
+title: 部署配置 Textpattern 到服务器
 description: This article offers guidance and tips for administrators wishing to install Textpattern to various web server platforms.
 ---
 
-# Configuring a web server for Textpattern
+# 部署配置 Textpattern 到服务器
 
 Textpattern CMS runs on servers that run PHP, MySQL and an appropriate HTTP (web) server. This article offers guidance and tips for administrators wishing to configure a web server for Textpattern.
 

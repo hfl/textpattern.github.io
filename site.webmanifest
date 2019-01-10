@@ -1,6 +1,6 @@
 {
-  "short_name": "Textpattern Docs",
-  "name": "Textpattern CMS Documentation",
+  "short_name": "Textpattern 手册",
+  "name": "Textpattern 内容管理系统手册",
   "start_url": "./?utm_source=web_app_manifest",
   "icons": [
     {
